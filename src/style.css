@@ -201,6 +201,7 @@ main {
 }
 
 .education-list__inner .refs {
+  font-weight: 500;
   color: #1c559b;
 }
 
