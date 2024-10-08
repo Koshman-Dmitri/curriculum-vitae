@@ -235,6 +235,11 @@ main {
   color: #1c559b;
 }
 
+.accent {
+  font-weight: 500;
+  color: goldenrod;
+}
+
 /* ========== ASIDE ========== */
 
 aside {
@@ -294,11 +299,12 @@ aside .refs {
 }
 
 .aside-list--skills li:nth-child(2)::before {
-  background-image: url('../assets/icons/skills/css.svg');
+  background-image: url('../assets/icons/skills/javascript.svg');
 }
 
 .aside-list--skills li:nth-child(3)::before {
-  background-image: url('../assets/icons/skills/javascript.svg');
+  filter: drop-shadow(0 0 1px white);
+  background-image: url('../assets/icons/skills/typescript.svg');
 }
 
 .aside-list--skills li:nth-child(4)::before {
@@ -306,11 +312,23 @@ aside .refs {
 }
 
 .aside-list--skills li:nth-child(5)::before {
-  background-image: url('../assets/icons/skills/github-skills.svg');
+  background-image: url('../assets/icons/skills/redux.svg');
 }
 
 .aside-list--skills li:nth-child(6)::before {
-  background-image: url('../assets/icons/skills/softSkill.svg');
+  background-image: url('../assets/icons/skills/github-skills.svg');
+}
+
+.aside-list--skills li:nth-child(7)::before {
+  background-image: url('../assets/icons/skills/nextjs.svg');
+}
+
+.aside-list--skills li:nth-child(8)::before {
+  background-image: url('../assets/icons/skills/webpack.svg');
+}
+
+.aside-list--skills li:nth-child(9)::before {
+  background-image: url('../assets/icons/skills/vite.svg');
 }
 
 /* ========== FOOTER ========== */
