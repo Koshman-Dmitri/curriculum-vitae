@@ -186,37 +186,6 @@ main {
   text-indent: 1.5em;
 }
 
-.code {
-  overflow: auto;
-  cursor: crosshair;
-  color: #9cdcfe;
-  background-color: #1e1e1e;
-}
-
-#code p {
-  text-align: justify;
-}
-
-.code-blue {
-  color: #2c7ad6;
-}
-
-.code-lightYellow {
-  color: #d0dc8b;
-}
-
-.code-purple {
-  color: #bb86c0;
-}
-
-.code-orange {
-  color: #f1d710;
-}
-
-.code-green {
-  color: #b5c077;
-}
-
 .education-list {
   margin-left: 20px;
   list-style-type: circle;
