@@ -317,31 +317,6 @@ footer {
   box-shadow: 0px 0px 10px gold;
 }
 
-.footer-git {
-  position: relative;
-  margin-left: 25px;
-}
-
-.footer-git::before {
-  position: absolute;
-  top: -6px;
-  left: -42px;
-  content: '';
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('../assets/icons/contacts/github.svg');
-}
-
-.rs-school {
-  display: block;
-  width: 100px;
-  height: 100%;
-  background: url('../assets/icons/rs_school_logo.svg') no-repeat;
-}
-
 /* ========== ANIMATION ========== */
 
 @keyframes showNav {
@@ -554,14 +529,6 @@ footer {
   footer {
     padding: 10px;
     font-size: 14px;
-  }
-
-  .footer-git {
-    margin-left: 0;
-  }
-
-  .footer-git::before {
-    display: none;
   }
 }
 
