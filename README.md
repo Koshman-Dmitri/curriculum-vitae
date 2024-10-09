@@ -1,0 +1,1 @@
+[Link to CV deploy](https://koshman-dmitri.github.io/curriculum-vitae/)
